@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title> Intrebari? </title>
+    <link rel="stylesheet" href="cssc.css">
+    <link rel="icon" type="image/x-icon" href="icon.ico">
+
+</head>
+<body>
+    <header>
+        <h1>Intrebari? </h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="acasa.html">Acasa</a></li>
+            <li><a href="produse.html">Produse</a></li>
+            <li><a href="desprenoi.html">Despre Noi</a></li>
+            <li><a href="contact.html">Contact</a></li> 
+        </ul>
+    </nav>
+    <section id="contact">
+        <h2>Contacteaza-ne!</h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <h4 class="blue">Email:</h4>
+                <button onclick="copiaza('contact@bijuterii.com')"><pre>contact@bijuterii.com                     copy</pre></button>
+            </div>
+            <div class="contact-item">
+                <h4 class="blue">Numar de telefon:</h4>
+                <button onclick="copiaza('089985930')"><pre>089985930                                  copy</pre></button>
+            </div>
+            <div class="contact-item">
+                <h4 class="blue">Instagram:</h4>
+                <button onclick="copiaza('@bijMax_off')"><pre> @bijMax_off                              copy</pre></button>
+            </div>
+            <div class="contact-item">
+                <h4 class="blue">Propuneri/Colaborari:</h4>
+                <button onclick="copiaza('sugt@bijuterii.com')"><pre>sugt@bijuterii.com                         copy</pre></button>
+            </div>
+        </div>
+    </section>
+    <footer> 
+        <h5>&copy; Magazin Bijuterii Capmari Dan</h5>
+    </footer>
+    <script>
+        function copiaza(text) {
+            navigator.clipboard.writeText(text)}
+    </script>
+</body>
+</html>

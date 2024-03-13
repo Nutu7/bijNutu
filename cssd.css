@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:  #fff0f3
+}
+header {
+    background-color: #f5f5dc;
+    color: rgb(121, 121, 121);
+    padding: 10px;
+    text-align: center;
+}
+nav{
+    background-color: #ecd6da;
+    padding: 10px;
+    text-align : center;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li{
+display: inline;
+margin-right: 20px;
+}
+nav ul li a{
+color: #ff7474;
+text-decoration: none;
+font-size: 18px;
+padding: 10px 20px;
+border: 2px solid #ff8888;
+border-radius: 5px;
+}
+nav ul li a:hover {
+background-color: #ffd5d5;
+color: rgba(255, 0, 0, 0.795);
+}
+section {
+    padding: 20px;
+    text-align: justify;
+}
+section h2 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px ;
+    color: #333;
+}
+section p {
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #666;
+}
+pre{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 93, 93);
+    font-size: 24px;
+    text-align: center;
+}
+section table{
+    width: 30%;
+    border-collapse: collapse;
+    Margin-top: 1px;
+}
+table{
+    margin-left: 600px;
+    margin-bottom: 30px;
+}
+.parteneri-background {
+    background-image: url('hz.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 10px; 
+}
+
+section th, section, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-top: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+}
+section th {
+    background-color: rgb(255, 219, 219);
+}
+.parteneri {
+    list-style-type: lower-greek;
+    padding: 0;
+}
+.parteneri li{
+    margin-bottom: 10px;
+}
+.parteneri a{
+    display: inline-table;
+    background-color: #e0ccff;
+    padding: 5px;
+    text-decoration: none;
+    color: #333;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 50px;
+    margin-left: 400px;
+
+}
+.parteneri a:hover {
+    background-color: #c4c4c4;
+}
+h2{
+    margin-left: 70px;
+    position: relative;
+}
+h3{
+    font-size: 24px;
+    margin-left: 610px;
+}
+h4{
+    margin-left: 400px;
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, times, 'Times New Roman', serif;
+    padding: 10px;
+}
+.parteneri-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.certificat{
+    width: 400px;
+    margin-right: 300px;
+    margin-top: 30px;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100px;
+}
